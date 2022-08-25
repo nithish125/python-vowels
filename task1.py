@@ -4,16 +4,20 @@ d=''
 c=[]
 list1=["a","e"," ","i","o","u" ]
 for x in range(len(a)):
-    print( str(a[x]))
-    #if a[x] not in list1:
-#      v=a[x].isalpha
-#      print(v)
-#      if(v):
-#       c.append(a[x])
-#       b+=a[x]
-#     else:
-#         d+=a[x]
-# print(c)
-# print(b)
-# print(d)
+    y = a[x].isalpha()
+
+    if(y):
+      if a[x] not in list1:
+       v=a[x].isalpha      
+       c.append(a[x])
+       b+=a[x]
+      else:
+        d+=a[x]
+      
+      
+print(c)
+print(b)
+print(d)
+print(len(c))
+
     
