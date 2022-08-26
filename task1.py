@@ -8,13 +8,11 @@ for x in range(len(a)):
 
     if(y):
       if a[x] not in list1:
-       v=a[x].isalpha      
+            
        c.append(a[x])
        b+=a[x]
       else:
         d+=a[x]
-      
-      
 print(c)
 print(b)
 print(d)
